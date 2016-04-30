@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "country": "New Zealand",
+    "name": "Mark Hunt",
+    "weight": "120",
+    "organisation": "UFC"
+  },
+ {
+    "id": 2,
+    "country": "Australia",
+    "name": "Robert Whittaker",
+    "weight": "77",
+    "organisation": "UFC"
+  },
+   {
+    "id": 3,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+ {
+    "id": 4,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+   {
+    "id": 5,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+ {
+    "id": 6,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+   {
+    "id": 7,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+ {
+    "id": 8,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+   {
+    "id": 9,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  },
+ {
+    "id": 10,
+    "country": "Australia",
+    "name": "oz-32.png",
+    "weight": "185",
+    "organisation": "UFC"
+  }
+]

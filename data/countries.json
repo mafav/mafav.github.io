@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Australia",
+    "flag": "oz-32.png"
+  },
+  {
+    "id": 2,
+    "name": "New Zealand",
+    "flag": "nz-32.png"
+  }
+]
