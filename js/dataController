@@ -1,0 +1,20 @@
+angular
+	.module('oznzmma')
+	.controller('dataController', function($scope, $http) {
+
+
+//dev tools
+$scope.dev_addFighter() = function(){
+
+
+$http.post("insert.php", ('name':scope.newName))
+	.success(function(data, status, headers, config){
+		console.log("data inserted");
+	});
+
+
+}
+
+
+
+	});

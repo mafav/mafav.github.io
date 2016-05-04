@@ -1,22 +1,25 @@
 angular
 	.module('oznzmma')
-	.controller('oznzmmaController', function($scope, countryThemeFactory, p4pListFactory) {
+	.controller('oznzmmaController', function($scope, $http, countryThemeFactory, p4pListFactory) {
 
 $scope.countries;
-$scope.p4pList;
+$scope.$on('LOAD', function(){$scope.loading=true});
+$scope.$on('UNLOAD', function(){$scope.loading=false});
 
+$scope.insertStatic = function(){
+	console.log("clicked");
+	$http.post('/oznzmma/php/insert_static.php').success(function(data){
 
+		console.log("executed successfully");
 
-p4pListFactory.getP4P().success(function(data) {
+		}).error(function(data){
 
-			$scope.p4pList = data;
-
-		}).error(function(error) {
-
-			console.log(error);
-
+				console.log("didn't work");
 		});
 
+
+
+}
 
 
 countryThemeFactory.getCountries().success(function(data) {

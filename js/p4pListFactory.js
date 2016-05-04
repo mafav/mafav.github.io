@@ -3,7 +3,9 @@ angular
 	.factory('p4pListFactory', function($http) {
 
 		function getP4P(){
-			return $http.get('data/p4p-list.json');
+
+			var load = $http.get('/oznzmma/php/getFighters.php');
+			return load;
 		}
 
 		return{
